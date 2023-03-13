@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  mlflow:
+    image: marcondol/evidently-local:latest
+    ports:
+      - "8888:8888"
